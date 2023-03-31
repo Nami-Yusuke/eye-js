@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #df9579;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  margin: auto;
+  position: relative;
+}
+/* .container:after {
+  content: "";
+  width: 5em;
+  height: 5px;
+  display: block;
+  position: relative;
+  background: red;
+  top: 5em;
+  margin: auto;
+} */
+.image {
+  position: absolute;
+  top: 250px;
+  left: 620px;
+  z-index: -1;
+}
+.pupil_left {
+  position: relative;
+}
+.pupil_right {
+  position: relative;
+}
+.eye + .eye {
+  margin-left: 70px;
+}
+element.style {
+}
+.circle2 {
+  position: absolute;
+  top: 500px;
+  left: 670px;
+  width: 120px;
+  height: 20px;
+  border-radius: 0px 0px 100px 100px;
+  background: rgb(221, 0, 0);
+  animation: 0.5s ease-in-out 0s infinite alternate-reverse none running mouse;
+}
+user agent stylesheet div {
+  display: block;
+}
+@keyframes mouse {
+  0% {
+    transform: skew(0deg);
+    height: 50px;
+  }
+  100% {
+    transform: skew(10deg);
+    height: 10px;
+  }
+}
